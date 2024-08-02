@@ -1,3 +1,8 @@
 # Base requirements
 matplotlib
 datasets
+transformers[tf,torch,sentencepiece,vision,optuna,sklearn,onnxruntime]==4.11.3
+datasets[audio]==1.16.1
+ipywidgets
+farm-haystack==1.7.0
+torch==1.12.1
